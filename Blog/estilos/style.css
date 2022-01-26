@@ -1,0 +1,28 @@
+@charset "UTF-08";
+
+body{
+    background-image:linear-gradient(to top ,#f0ad50, #fdae40, #faa733) ;
+    height: 100vh;
+}
+header{
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+main{
+    background-color: white;
+}
+main{
+    width: 43%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 1px 20px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    margin: auto;
+    display: block;
+}
