@@ -45,3 +45,11 @@ img{
     display: block;
     width: 51%;
 }
+footer{
+    background-color: white;
+    text-align: center;
+}
+footer>p#rodape{
+    margin-bottom: 0px;
+    font-weight: normal;
+}
