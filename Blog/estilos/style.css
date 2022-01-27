@@ -44,14 +44,28 @@ div#post>a{
     font-size: 0.8em;
 }
 div#post>p{
-    padding-left: 30px;
+    padding: 0px 40px;
     font-weight: 300;
     font-size: 0.9em;
-}
-.textos{
+    margin: 0%;
 }
 .ultimo{
     border-radius:0px 0px 12px 12px;
+    padding-bottom: 20px;
+}
+.ultimo>div>a{
+    text-decoration: none;
+    background-color: #7dcbfbb8;
+    padding: 1px 5px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin:6px auto;
+    color: black;
+
+}
+.ultimo>div>a:hover{
+    background-color: #3890c788;
 }
 p{
     font-size: 20px;
