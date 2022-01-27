@@ -1,21 +1,30 @@
 @charset "UTF-08";
 
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+
 body{
-    background-image:linear-gradient(to top ,#f0ad50, #fdae40, #faa733) ;
-    height: 100vh;
+    background-color: #faa733;
+    margin: 0px;
+
 }
 header{
     background-color: white;
     padding-left: 10px;
-    border-radius: 20px;
+    margin-bottom: 10px;
 }
-main{
+header > h1{
+    margin: 0px;
+    text-align: center;
+    padding-top: 7px;
+    color: #B8141F;
+    font-family: 'Tangerine', cursive;
+}
+.textos{
     background-color: white;
-}
-main{
     width: 43%;
     margin: auto;
-    border-radius: 20px;
+    border-radius:20px;
     padding: 1px 20px;
 }
 p{
@@ -25,4 +34,10 @@ p{
 img{
     margin: auto;
     display: block;
+    width: 100%;
+    padding-bottom: 20px;
+    position: fixed;
+}
+div#imagem{
+    background-image: url(imagens/essa.jpg);
 }
