@@ -1,6 +1,9 @@
 @charset "UTF-08";
 
-@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@font-face {
+    font-family: 'arabe';
+    src: url(Tangerine-Regular.ttf);
+}
 
 
 body{
@@ -18,13 +21,19 @@ header > h1{
     text-align: center;
     padding-top: 7px;
     color: #B8141F;
-    font-family: 'Tangerine', cursive;
+    font-family: 'arabe', 'Times New Roman', Times, serif;
 }
 .textos{
     background-color: white;
     width: 43%;
     margin: auto;
-    border-radius:20px;
+    padding: 1px 20px;
+}
+.ultimo{
+    background-color: white;
+    width: 43%;
+    margin: auto;
+    border-radius:0px 0px 12px 12px;
     padding: 1px 20px;
 }
 p{
@@ -34,10 +43,6 @@ p{
 img{
     margin: auto;
     display: block;
-    width: 100%;
+    width: 101%;
     padding-bottom: 20px;
-    position: fixed;
-}
-div#imagem{
-    background-image: url(imagens/essa.jpg);
 }
