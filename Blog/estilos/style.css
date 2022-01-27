@@ -25,13 +25,13 @@ header > h1{
 }
 .textos{
     background-color: white;
-    width: 43%;
+    width: 47%;
     margin: auto;
     padding: 1px 20px;
 }
 .ultimo{
     background-color: white;
-    width: 43%;
+    width: 47%;
     margin: auto;
     border-radius:0px 0px 12px 12px;
     padding: 1px 20px;
@@ -43,6 +43,5 @@ p{
 img{
     margin: auto;
     display: block;
-    width: 101%;
-    padding-bottom: 20px;
+    width: 51%;
 }
