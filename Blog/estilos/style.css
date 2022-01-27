@@ -26,18 +26,32 @@ header > h1{
     color: #B8141F;
     font-family: 'arabe','Tangerine', 'Times New Roman', Times, serif;
 }
-.textos{
+div{
     background-color: white;
     width: 47%;
     margin: auto;
     padding: 1px 20px;
+    margin: auto;
+}
+div#post{
+    border-top: 2PX solid rgba(0, 0, 0, 0.035);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.035);
+}
+div#post>a{
+    padding-left: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+div#post>p{
+    padding-left: 30px;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+.textos{
 }
 .ultimo{
-    background-color: white;
-    width: 47%;
-    margin: auto;
     border-radius:0px 0px 12px 12px;
-    padding: 1px 20px;
 }
 p{
     font-size: 20px;
@@ -46,7 +60,7 @@ p{
 img{
     margin: auto;
     display: block;
-    width: 51%;
+    width: 90%;
 }
 footer{
     background-color: white;
