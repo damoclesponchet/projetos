@@ -1,5 +1,8 @@
 @charset "UTF-08";
 
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+
 @font-face {
     font-family: 'arabe';
     src: url(Tangerine-Regular.ttf);
@@ -21,7 +24,7 @@ header > h1{
     text-align: center;
     padding-top: 7px;
     color: #B8141F;
-    font-family: 'arabe', 'Times New Roman', Times, serif;
+    font-family: 'arabe','Tangerine', 'Times New Roman', Times, serif;
 }
 .textos{
     background-color: white;
