@@ -39,6 +39,7 @@ div#post>a{
 div#post{
     border-top: 2px solid rgba(0, 0, 0, 0.11);
     border-bottom: 2px solid rgba(0, 0, 0, 0.158);
+    position: relative;
 }
 div#post>img{
     width: 97%;
@@ -46,14 +47,16 @@ div#post>img{
     margin: auto;
 }
 div#post>img#coração{
-    width: 3%;
-    display: inline-block;
-    padding: 10px;
+    width: 5%;
+    display: inline;
     background-color: red;
-    border-radius: 40px;
+    position: absolute;
+    left: 94%;
+    
 }
+div#post>img#coração:clic
 div#ultimo{
-    border-radius:0px 0px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
 
 }
 
@@ -63,7 +66,7 @@ div#ultimo>div>a{
     color: black;
     display: block;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 6px auto ;
     width: 90%;
 }
