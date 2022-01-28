@@ -4,14 +4,16 @@
 
 body{
     background-color: #FAA632;
+    background-image: url(../imagens/legal.png);
     margin: 0px;
+    position: relative;
 }
 section{
     background-color: white;
     border-radius: 20px;
     max-width: 316px ;
     min-width: 200;
-    margin: 30px  20px ;
+    margin: 90px 40px ;
     padding: 20px 10px;
 }
 div.caixa{
@@ -32,47 +34,9 @@ p{
     font-weight: 500;
     font-size: 20px;
 }
-div#post>a{
-    padding-left: 10px;
-    text-decoration: none;
 
-}
-div#post{
-    border-top: 2px solid rgba(0, 0, 0, 0.11);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.158);
-}
-div#post>img{
-    width: 97%;
-    display: block;
-    margin: auto;
-}
-div#post>img#coração{
-    width: 3%;
-    display: inline-block;
-    padding: 10px;
-    background-color: red;
-    border-radius: 40px;
-}
-div#ultimo{
-    border-radius:0px 0px 20px 20px;
-
-}
-
-div#ultimo>div>a{
-    text-decoration: none;
-    background-color: cornflowerblue;
-    color: black;
-    display: block;
-    text-align: center;
-    border-radius: 20px;
-    margin: 6px auto ;
-    width: 90%;
-}
-div#ultimo>div>a:hover{
-    background-color:rgb(62, 93, 151) ;
-}
 footer{
     background-color: white;
     text-align: center;
-    margin-top: 20px;
+    padding: 3.3px;
 }
