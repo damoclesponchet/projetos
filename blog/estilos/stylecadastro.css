@@ -6,7 +6,9 @@ body{
     background-color: #FAA632;
     background-image: url(../imagens/legal.png);
     margin: 0px;
-    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20%;
 }
 section{
     background-color: white;
