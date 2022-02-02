@@ -25,6 +25,9 @@ div{
     width: 60%;
     box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.097);
 }
+img{
+    width: 40%;
+}
 p{
     margin: 0px;
     padding: 10px;

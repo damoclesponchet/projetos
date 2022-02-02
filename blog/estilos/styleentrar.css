@@ -1,0 +1,44 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+body{
+    background-color: #FAA632;
+    background-image: url(../imagens/legal.png);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20%;
+}
+section{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 316px ;
+    min-width: 200;
+    margin: 108px 54px ;
+    padding: 30px 10px;
+}
+div.caixa{
+    background-color: #c9000074;
+    margin: 38px 10px ;
+    width: 50%;
+    padding: 14px;
+    border-radius: 10px; ;
+}
+div.caixa>input{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+p{
+    margin: 0px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 3.8px;
+}
