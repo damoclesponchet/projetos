@@ -2,8 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 
+@font-face {
+    font-family: 'Tangerine';
+    src: url('Tangerine-Regular.ttf') format('opentype');
+}
+
 body{
-    background-color: #FAA632;
+    background-color: #f7902f;
     margin: 0px;
 }
 header{

@@ -1,0 +1,57 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+body{
+    background-color:#f7902f;
+    margin: 0px;
+    position: relative;
+}
+header{
+    background-color: white;
+}
+header>h1{
+    color: #c90000;
+    margin: 0px;
+    font-family: 'Tangerine', cursive;
+    padding: 4px;
+}
+nav{
+    padding: 10px;
+    background-color: lightgray;
+}
+
+nav>a{
+    background-color: #c90000;
+    color: #fff;
+    padding:4px;
+    border-radius: 6px;
+}
+div{
+    background-color: white;
+    margin: auto;
+    width: 1000px;
+    padding: 10px;
+}
+div>h1{
+    margin-top: 0px;
+}
+p{
+    margin: 0px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 3.3px;
+}
+ul#links>li{
+    display: inline;
+}
+
+ul{
+    margin: 0px;
+}
