@@ -4,5 +4,5 @@ let ema = document.getElementById('email')
 let senha = document.getElementById('senha')
 let csenha = document.getElementById('confirmarsenha')
 function criar(){
-    window.location = "pprincipal.html" 
+    window.location.href = "/blog/orientacaodaconta.html"
 }
